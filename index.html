@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="aasets/images/favicon-32x32.png">
+
+  <!-- font Awesome CDN -->
+  <script src="https://kit.fontawesome.com/a2b8165e51.js" crossorigin="anonymous"></script>
+  
+  <!-- External StyleSheet -->
+  <link rel="stylesheet" href="aasets/CSS/style.css">
+
+  <title>Frontend Mentor | Intro component with sign up form</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <main>
+    <section class="main-wrapper container">
+
+      <div class="header">
+        <div class="header__content">
+          <h1 class="header__title">
+            Learn to code by watching others
+          </h1>
+          <p class="header__desc">
+            See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
+            but understanding how developers think is invaluable. 
+          </p>
+        </div>
+      </div>
+
+      <div class="form-wrapper">
+
+        <a href="#" class="btn btn-primary">
+          <strong>Try it free 7 days</strong>
+           then $20/mo. thereafter
+        </a>
+
+        <div class="form-container">
+
+          <form action="" class="form" id="form">
+
+            <div class="form-control">
+              <input type="text" id="firstName" name="firstName">
+              <label for="firstName">First Name</label>
+              <i class="fas fa-check-circle"></i>
+              <i class="fas fa-exclamation-circle"></i>
+              <small>Error Message</small>
+            </div>
+  
+            <div class="form-control ">
+              <input type="text" id="lastName" name="lastName">
+              <label for="lastName">Last Name</label>
+              <i class="fas fa-check-circle"></i>
+              <i class="fas fa-exclamation-circle"></i>
+              <small>Error Message</small>
+            </div>
+  
+            <div class="form-control">
+              <input type="email" id="email" name="email">
+              <label for="Email">Email Address</label>
+              <i class="fas fa-check-circle"></i>
+              <i class="fas fa-exclamation-circle"></i>
+              <small>Error Message</small>
+            </div>
+  
+            <div class="form-control">
+              <input type="password" id="password" name="password">
+              <label for="password">Password</label>
+              <i class="fas fa-check-circle"></i>
+              <i class="fas fa-exclamation-circle"></i>
+              <small>Error Message</small>
+            </div>
+
+            <button class="btn-success">
+              Claim your free trial
+            </button>
+
+            <div class="form-content">
+              <p class="form-text">
+                By clicking the button, you are agreeing to our 
+                <span>Terms and Services</span> 
+              </p>
+            </div>
+          </form>
+
+        </div>
+      </div>
+    </section>
+    
+  </main>
+
+  <!-- Js -->
+  <script defer src="aasets/JS/index.js"></script>
+</body>
+</html>
